@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", function (event) {
         event.preventDefault();
 
-        const username = document.getElementById("username").value.trim();
-        const email = document.getElementById("email").value.trim();
+        const username = document.getElementById("username:asenathi123").value.trim();
+        const email = document.getElementById("email:sotshintshiasenathi@gmail.com").value.trim();
         const password = document.getElementById("password").value.trim();
 
         let isValid = true;
@@ -36,5 +36,4 @@ document.addEventListener("DOMContentLoaded", () => {
             feedbackDiv.innerHTML = messages.join("<br>");
             feedbackDiv.style.color = "#dc3545";
         }
-    });
-});
+    })
